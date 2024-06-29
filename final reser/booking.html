@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- casacading style sheet -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="booking-header">
+        <nav class="navbar navbar-expand-md   ">
+
+            <div class="container-fluid ">
+                <div class="navbar-brand">
+                    <img src="assets/image/logo.png" width="120" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="mobile-menu-btn">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link Aria-current" aria-current="page" href="./resevemainscreen.html">Home</a>
+                        <a class="nav-link text-white" href="./servicepage.html">Service</a>
+                        <a class="nav-link text-white" href="./booking.html">Gallery</a>
+                        <a class="nav-link text-white" href="./booking">Booking</a>
+                        <a class="nav-link text-white">About Us</a>
+                    </div>
+                    <div class="edge-properties">
+
+                        <div class="contact-btn">
+                            <a class="text-white" href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- header ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- kara hall -->
+
+    <section class="section-kara">
+        <h2 class="text-center p-3">Kara Hall</h2>
+
+        <div class="container-md">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="btn  carousel-btn">View more</a>
+
+                    <!-- booking carousel -->
+                    <div id="carouselExample" class="carousel slide booking-carousel">
+                        <div class="carousel-inner booking-carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/image/kara hall.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/image/skycap hall.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/image/buzz.png.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- end of booking carousel -->
+                    <div class="kara-title">
+                        <h1 claass="text-start"> Kara Hall</h1>
+                        <div class="kara-content">
+                            <div class="kara-content-one">
+                                <img src="assets/icons/Pin_fill - Copy.png" alt="location_tag">
+                                <span class="text-start">6 Goodluck Jonathan Boulevard New Stadium Road, Uyo</span>
+                            </div>
+                            <div class="kara-content-two">
+                                <img src="assets/icons/Group_fill.svg" alt="group">
+                                <span class="text-start">150 Seater</span>
+                            </div>
+                            <div class="kara-third-img">
+                                <img src="assets/image/star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-box px-2 pt-3">
+                        <h2 class="text-start">Kara event hall</h2>
+
+
+                        <!-- booking form    -->
+                        <form action="" method="" id="booking_form" class="container-md">
+                            <div class="row pt-4 pb-2">
+                                <div class="col-md-6">
+                                    <label for="event-Date">Event Date</label><br>
+                                    <div class="input-box" id="dateBox">
+                                        <input type="date" id="eventDate" placeholder="" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="eventType">Event Type</label><br>
+                                    <div class="booking-dropdown " id="eventBox">
+                                        <button class="btn dropdown-toggle" type="button" id="eventTypeButton"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Select Event Type
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="eventTypeButton">
+                                            <li><a class="dropdown-item" href="#"
+                                                    onclick="selectEventType('Birthday')">Birthday</a></li>
+                                            <li><a class="dropdown-item" href="#"
+                                                    onclick="selectEventType('Wedding reception')">Wedding
+                                                    reception</a></li>
+                                            <li><a class="dropdown-item" href="#"
+                                                    onclick="selectEventType('Traditional marriage')">Traditional
+                                                    marriage</a></li>
+                                        </ul>
+                                    </div>
+                                    <input type="hidden" id="eventType" required>
+                                </div>
+                            </div>
+                            <div class="two_formline pt-2 pb-2">
+                                <div class="line_one">
+                                    <label for="bookingFullNmame">Full name</label><br>
+                                    <div class="input-box  input-box-error" id="nameBox">
+                                        <input type="text" id="bookingFullNmame" placeholder="" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-2 pb-3">
+                                <div class="col-md-6">
+                                    <div class="line_one">
+                                        <label for="booking_phoneNumber">Phone Number</label><br>
+                                        <div class="input-box  input-box-error" id="numberBox">
+                                            <input type="tel" id="booking_phoneNumber" placeholder="08000000000"
+                                                pattern="[0-9]{10}" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="line_one">
+                                        <label for="BookingEmail">Email</label><br>
+                                        <div class="input-box  input-box-error" id="emailBox">
+                                            <input type="email" id="BookingEmail" placeholder="@gmail.com" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-box-check">
+                                <input type="checkbox" id="dateFlexible">
+                                <label for="dateFlexible">My date is flexible</label>
+                            </div>
+                            <p>By proceeding, you agree to our <a href="terms.html" class="Aria-current">Terms and
+                                    services.</a></p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <input class=" btn-booking-form" value="See price" type="button"
+                                    onclick="validateForm()">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- hall feaTURE -->
+    <section class="section-hall-features container-md pt-5">
+        <h2 class="text-start">Hall features</h2>
+
+        <div class="feature-content contain">
+            <div class="one-con">
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+                    <span>2 Units of 200KVA Standby Generator
+                    </span>
+                </div>
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>12 Units of 5hp Standing A/C Units
+                    </span>
+                </div>
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>Changing Rooms
+                    </span>
+                </div>
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>Fire Alarm Systems and Smoke Detector
+                    </span>
+                </div>
+            </div>
+
+            <div class="one-con">
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>Chairs and tables
+                    </span>
+                </div>
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>Inbuilt Sound Systems
+                    </span>
+                </div>
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>Standard and Clean Conveniences
+                    </span>
+                </div>
+                <div class="one">
+                    <img src="assets/icons/Done.png" alt="">
+
+                    <span>CCTV Camera for 24 hour security
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HALL FEATURE -->
+
+
+
+    <!-- our top halls -->
+
+    <section class="our-top-halls mt-5 container-md  d-none  d-md-block">
+        <h1 class="text-start pt-4 pb-5">Our top hall</h1>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/image/Reserva image 2 7 (1).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rotunda Hall</h5>
+                        <p class="card-text">
+                            <img src="assets/icons/Pin_fill - Copy.png" width="28px" alt="">
+                            <span>Off Airport road, Uyo </span> <br>
+                            <img src="assets/icons/Group_fill.svg" alt="">
+                            <span>200 Seater</span> <br>
+                            <img class="star" src="assets/image/star.png" alt="">
+                        </p>
+
+                        <div class="info-btn">
+                            <button>
+                                <a href="#">More Details</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/image/e3 banquet hall.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rotunda Hall</h5>
+                        <p class="card-text">
+                            <img src="assets/icons/Pin_fill - Copy.png" width="28px" alt="">
+                            <span>Off Airport road, Uyo </span> <br>
+                            <img src="assets/icons/Group_fill.svg" alt="">
+                            <span>200 Seater</span> <br>
+                            <img class="star" src="assets/image/star.png" alt="">
+                        </p>
+            
+                        <div class="info-btn">
+                            <button>
+                                <a href="#">More Details</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/image/kara hall.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rotunda Hall</h5>
+                        <p class="card-text">
+                            <img src="assets/icons/Pin_fill - Copy.png" width="28px" alt="">
+                            <span>Off Airport road, Uyo </span> <br>
+                            <img src="assets/icons/Group_fill.svg" alt="">
+                            <span>200 Seater</span> <br>
+                            <img class="star" src="assets/image/star.png" alt="">
+                        </p>
+            
+                        <div class="info-btn">
+                            <button>
+                                <a href="#">More Details</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- additional information -->
+
+    <section class="section-add container-md">
+        <h2 class="text-start pt-4 pb-4">Additional information</h2>
+
+        <div class="row ">
+            <div class="col-md-6">
+                <ul>
+                    <li>Our hall opens from 8.00am to 6.00pm. To secure a firm booking, a minimum of 50% non-refundable
+                        cost of
+                        the hall
+                        must be
+                        paid one week from the date of booking, and the balance payable one month after the initial
+                        payment.
+                        Where the
+                        event is
+                        less than two months from the date of booking, full payment must be made at the time of booking.
+
+                    </li><br>
+                    <li>There is minimum refundable deposit to be paid at the time of booking as caution fee. The
+                        deposit will
+                        be
+                        retained until
+                        after event and when the premises have been inspected by the Facility Manager. The deposit will
+                        be
+                        returned if
+                        hall is
+                        free of damage and no theft occurred.</li><br>
+                    <li>Period of hire covers 8 hours per day. Extra hour attracts a minimum charge per hour up to a
+                        maximum of
+                        2 hours
+                        depending on the hall in use</li><br>
+                    <li>Projector and Screen is for rent. Use of Sound Systems (Speakers Microphone etc. attracts a
+                        charge)</li><br>
+                    <li>Clients must promptly evacuate all sets and stage properties immediately after their events.
+                        Failure to
+                        do so
+                        will
+                        attract a surcharge per day. Our management team reserves the right to dispose off sets not
+                        collected
+                        within 7
+                        days.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/image/book.png" class="w-100" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end of additional information -->
+
+   
+
+
+
+
+
+
+        <div class="faq-section">
+            <h2>Faqs</h2>
+        
+            <div class="container-fluid">
+                <div class="faq-content">
+                    <!-- Item 1 -->
+                    <input type="checkbox" id="toggle1" class="toggle">
+                    <label for="toggle1">
+                        <p>What types of events can your event center accommodate?</p>
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.18077 9.44392L0.541993 2.8171C-0.107529 1.88922 0.556286 0.614257 1.68892 0.614257L10.3111 0.614257C11.4437 0.614257 12.1075 1.88922 11.458 2.81711L6.81923 9.44393C6.42113 10.0126 5.57887 10.0126 5.18077 9.44392Z"
+                                fill="white" />
+                        </svg>
+        
+                    </label>
+                    <div class="content">
+                        <p>Content for Item 1</p>
+                    </div>
+        
+                    <!-- Item 2 -->
+                    <input type="checkbox" id="toggle2" class="toggle">
+                    <label for="toggle2">
+                        <p>How can I book an event hall at your center?</p>
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.18077 9.44392L0.541993 2.8171C-0.107529 1.88922 0.556286 0.614257 1.68892 0.614257L10.3111 0.614257C11.4437 0.614257 12.1075 1.88922 11.458 2.81711L6.81923 9.44393C6.42113 10.0126 5.57887 10.0126 5.18077 9.44392Z"
+                                fill="white" />
+                        </svg>
+                    </label>
+                    <div class="content">
+                        <p>Content for Item 2</p>
+                    </div>
+        
+                    <!-- Item 3 -->
+                    <input type="checkbox" id="toggle3" class="toggle">
+                    <label for="toggle3">
+                        <p>What logistics services do you offer?</p>
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.18077 9.44392L0.541993 2.8171C-0.107529 1.88922 0.556286 0.614257 1.68892 0.614257L10.3111 0.614257C11.4437 0.614257 12.1075 1.88922 11.458 2.81711L6.81923 9.44393C6.42113 10.0126 5.57887 10.0126 5.18077 9.44392Z"
+                                fill="white" />
+                        </svg>
+                    </label>
+                    <div class="content">
+                        <p>Content for Item 3</p>
+                    </div>
+        
+                    <!-- Item 4 -->
+                    <input type="checkbox" id="toggle4" class="toggle">
+                    <label for="toggle4">
+                        <p>Is there a discount for booking both event hall and logistics services?</p>
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.18077 9.44392L0.541993 2.8171C-0.107529 1.88922 0.556286 0.614257 1.68892 0.614257L10.3111 0.614257C11.4437 0.614257 12.1075 1.88922 11.458 2.81711L6.81923 9.44393C6.42113 10.0126 5.57887 10.0126 5.18077 9.44392Z"
+                                fill="white" />
+                        </svg>
+                    </label>
+                    <div class="content">
+                        <p>Content for Item 4</p>
+                    </div>
+        
+                    <!-- Item 5 -->
+                    <input type="checkbox" id="toggle5" class="toggle">
+                    <label for="toggle5">
+                        <p>Do you provide ushering services for events?</p>
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.18077 9.44392L0.541993 2.8171C-0.107529 1.88922 0.556286 0.614257 1.68892 0.614257L10.3111 0.614257C11.4437 0.614257 12.1075 1.88922 11.458 2.81711L6.81923 9.44393C6.42113 10.0126 5.57887 10.0126 5.18077 9.44392Z"
+                                fill="white" />
+                        </svg>
+                    </label>
+                    <div class="content">
+                        <p>Content for Item 5</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+
+
+        <footer>
+        
+            <div class="footer-container">
+                <div class="footer-item">
+                    <img src="assets/image/logo.png" alt="">
+                    <p>When it comes to prioritizing trust, confidence, and the comfort of your guests, RESERVA Event Centers
+                        and
+                        Conference
+                        Halls Agency stands out as the top choice.</p>
+                </div>
+                <div class="footer-item">
+                    <h6>Legal</h6>
+                    <ul>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Terms and condition</a></li>
+                        <li><a href="">Terms of service</a></li>
+                    </ul>
+        
+                    <h6>Contact</h6>
+                    <ul>
+                        <li><a href="mailto:reserva.event/halls@gmail.com">reserva.event/halls@gmail.com</a></li>
+                        <li>
+                            <img src="assets/icons/phone-img.png" width="100" alt="">
+                            <a href="tel:+2349133332222">+2349133332222</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h6>About Us</h6>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">FAQS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h6>Office</h6>
+                    <ul>
+        
+                        <li>
+                            <img src="assets/icons/tdesign_location.png" width="100" alt="">
+                            <a href="">No.213 Abak road, Uyo, Akwa Ibom State.</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <ul>
+                        <li>
+                            <a href="#" clas="text-white">Back to Top</a>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 7L12 21" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M11.7966 2.28481L7.90356 7.73501C7.52535 8.2645 7.90385 9 8.55455 9L15.4454 9C16.0961 9 16.4746 8.2645 16.0964 7.73501L12.2034 2.28481C12.1037 2.14522 11.8963 2.14522 11.7966 2.28481Z"
+                                    fill="white" />
+                            </svg>
+        
+                        </li>
+        
+                        <li >Subscribe to our newsletter</li>
+        
+                        <li class="footer-input">
+                            <input type="email" placeholder="enter your email here">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+        
+        
+        
+            <div class="liner"></div>
+        
+            <div class="d-flex align-items-center p-3">
+                <div class="social-medias">
+                    <img src="assets/icons/facebook.png" alt="">
+                    <img src="assets/icons/instgram.png" alt="">
+                    <img src="assets/icons/whatapp.png" alt="">
+                </div>
+                <div class="footer-text">
+                    <p>Copyright 2024 - RESERVA Event Center & Halls. All rights reserved.</p>
+                </div>
+            </div>
+        
+        </footer>
+
+
+
+
+
+
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

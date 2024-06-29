@@ -1,0 +1,251 @@
+.gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 3em;
+    width: 100%;
+}
+
+
+.gallary-hero-header-text{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.gallary-container {
+  margin: 10px auto;
+  gap: 10px;
+  width: 95%;
+  /* border: 1px solid red; */
+  max-width: 1277px;
+}
+
+.mobile-responsiveness {
+  display: none;
+}
+
+.gallary-container p {
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 10px 30px;
+}
+
+.displayed-image {
+  display: flex;
+  gap: 14px;
+}
+
+.mobile-responsiveness, 
+.displayed-image img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1316px) {
+  .container p {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1214px) {
+  .container p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1110px) {
+  .container p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1006px) {
+  .container p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 918px) {
+  .container p {
+    font-size: 1.5rem;
+    
+  }
+
+  .gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: 38vh;
+    width: 100%;
+}
+}
+
+@media (max-width: 901px) {
+  .container p {
+    font-size: 1.4rem;
+  }
+
+   .gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: 38vh;
+    width: 100%;
+}
+}
+
+@media (max-width: 820px) {
+  .container p {
+    font-size: 1.3rem;
+  }
+
+   .gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: 38vh;
+    width: 100%;
+}
+}
+
+@media (max-width: 816px) {
+  .container p {
+    font-size: 1.3rem;
+  }
+
+   .gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: 38vh;
+    width: 100%;
+}
+}
+
+@media (max-width: 800px) {
+  .container p {
+    font-size: 1.3rem;
+  }
+
+   .gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+  .container p {
+    font-size: 1.2rem;
+  }
+
+   .gallary-header {
+    background-image: url(/Master/Assets/img/renaissance-banquet-hall-crystal-ballroom\ 1.png);
+    background-repeat: no-repeat;
+    height: 38vh;
+    width: 100%;
+}
+}
+
+@media (max-width: 764px) {
+  .container p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 713px) {
+  .container p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 662px) {
+  .container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 610px) {
+  .container p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container p {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 90%;
+    margin-left: -15px;
+    columns: #1b0639;
+  }
+
+  .mobile-responsiveness {
+    display: flex;
+    gap: px;
+    /* border: 1px solid red; */
+    width: 101%; /* Ensure it takes full width */
+    flex-wrap: wrap; /* Ensure items wrap to the next line if needed */
+  }
+
+  .mobile-responsiveness img {
+    /* border: 1px solid red; */
+    width: 100%; /* Make images responsive */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+
+  .displayed-image {
+    display: none;
+  }
+
+  .first-mobile,
+  .second-mobile {
+    flex: 1; /* Allow them to take equal space */
+    margin: 0 5px; /* Add some margin for spacing */
+  }
+
+  .first-mobile {
+    margin-left: -1px;
+  }
+}
+
+@media (max-width: 162px) {
+  .container p {
+    font-size: .6rem;
+    text-align: center;
+    /* width: 90%; */
+    margin-left: -38px;
+    columns: #1b0639;
+  }
+
+  .watch img {
+    width: 110%;
+  }
+}
+.footer{
+    display: flex;
+    align-items: center!important;
+    justify-content: center;
+    background: #4e2c8c;
+    color: #fff;
+    padding: 4rem;
+    margin: 0 auto;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-2{
+  flex: 1;
+}
+.last p, 
+.last a,
+.last li{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul{
+    padding:0;
+}

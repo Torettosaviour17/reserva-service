@@ -1,0 +1,511 @@
+
+
+/* Styles for extra small devices (phones) */
+@media (max-width: 575.98px) {
+ 
+.mobile-menu-btn .bar{
+    display:flex;
+      height: 4px;
+  width: 30px;
+  background: var(--primary-color);
+  margin: 7px;
+}
+
+  .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+     .carousel-inner-item p {
+        text-align: center !important;
+    } 
+
+
+.navbar-toggler {
+    background-color: transparent;
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar-toggler:focus {
+    background-color: transparent;
+    border: none!important;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2em!important;
+    height: 1.5em;
+    background-size: 100%;
+}
+    .dropdown-cover {
+    margin-left: -1rem;
+    display: flex;
+    align-items: center;
+    max-width: 21rem;
+    width: 100%;
+    background-color: var(--white-color);
+    height: 44px;
+    gap: 0px;
+    border-radius: 9px;
+    opacity: 1;
+    margin-top: -2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.dropdown {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem;
+}
+
+.mobile-hero-container {
+  display: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Two rows */
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+nav{
+    margin-top: -.7rem;
+    max-width: 575px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+   .event-container {
+        display: grid !important;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+     .hero-container{
+        display: none;
+    }
+
+        .carousel-img img{
+            display: flex;
+    margin: 0 auto !important;
+    width: 50%;
+}
+
+.carousel-inner-item p{
+    text-align: center;
+}
+    
+/* .text-griid{
+    margin-top: -6rem;
+} */
+
+.text-grid{
+    margin-top: -4rem;
+}
+
+
+.carousel-right-img img {
+    width: 15%;
+    max-width: 100%;
+    position: absolute;
+    right: 43%;
+    bottom: 19px;
+}
+ header {
+    min-height: 50vh; /* Adjust the minimum height for smaller screens */
+    padding: 10px; /* Adjust the padding for smaller screens */
+  }
+
+.join-bundle .join-btn {
+    width: 100%; /* Ensures the button takes full width of its container */
+    text-align: center;
+}
+
+.join-sector-paragraph p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.join-bundle .join-bundle-text p {
+   font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+.join-bundle {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join-bundle .join-btn button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%; /* Makes the button itself full width */
+    background: var(--primary-color);
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+.footer-item h6{
+  padding: 0;
+  margin-left: -5rem;
+}
+
+
+}
+
+
+
+@media (min-width:575px) and (max-width:680px){
+    .hero-container{
+        display: none;
+    }
+.mobile-hero-container {
+  display: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Two rows */
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+}
+
+/* Styles for small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .footer-item h6{
+  padding: 0;
+  margin-left: -15rem;
+}
+  header {
+    min-height: 50vh; /* Adjust the minimum height for smaller screens */
+    padding: 10px; /* Adjust the padding for smaller screens */
+  }
+
+  .mobile-hero-container {
+    display: flex; /* Display flex on small screens */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }    .carousel-inner-item p {
+        text-align: center !important;
+    }
+    .carousel-img img{
+            display: flex;
+    margin: 0 auto !important;
+    width: 50%;
+}
+    
+/* .text-griid{
+    margin-top: -6rem;
+} */
+.join-bundle .join-btn {
+    width: 100%; /* Ensures the button takes full width of its container */
+    text-align: center;
+}
+
+.join-sector-paragraph p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.join-bundle .join-bundle-text p {
+   font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+.join-bundle {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join-bundle .join-btn button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%; /* Makes the button itself full width */
+    background: var(--primary-color);
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+
+.carousel-inner-item p{
+    text-align: center;
+}
+.text-grid{
+    margin-top: -4rem;
+}
+
+
+.carousel-right-img img {
+    width: 15%;
+    max-width: 100%;
+    position: absolute;
+    right: 43%;
+    bottom: 19px;
+}
+
+    .event-box .event-box-img .event-box-title {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18.27px;
+    text-align: left;
+    color: var(--text-color-onoe);
+    padding: 11px 0;
+}
+.dropdown-cover {
+    display: flex;
+    align-items: center;
+    max-width: 30rem;
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: var(--white-color);
+    height: 61px;
+    gap: 0px;
+    border-radius: 9px 9px 9px 9px;
+    opacity: 0px;
+    margin-top: -2rem;
+    /* overflow: hidden; */
+}
+nav .edge-properties{
+    display: none;
+}
+
+
+
+.mobile-menu-btn .bar{
+    display:flex;
+      height: 4px;
+  width: 35px;
+  background: var(--primary-color);
+  margin: 7px;
+}
+
+
+
+.navbar-toggler {
+    background-color: transparent;
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar-toggler:focus {
+    background-color: transparent;
+    border: none!important;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2em!important;
+    height: 1.5em;
+    background-size: 100%;
+}
+
+.hero-text p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: var(--white-color);
+    padding: 26px 0;
+}
+
+.hero-text h1 {
+    min-width: 50%;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 46px;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.hero-img img {
+    margin-top: -5rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    min-height: 19rem;
+    width: 100%;
+}
+
+    .dropdown-cover {
+    margin-left: -1rem;
+    display: flex;
+    align-items: center;
+    max-width: 21rem;
+    width: 100%;
+    background-color: var(--white-color);
+    height: 38px;
+    gap: 0px;
+    border-radius: 9px;
+    opacity: 1;
+    margin-top: -2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.dropdown {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem;
+}
+
+.hero-item img{
+ width: 100%;
+ min-height: 320px;
+ object-fit: cover;
+ border-radius: 1rem;
+}
+
+   .event-container {
+   
+        display: grid !important;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .last-info-bundle img {
+    width: 100px;
+    margin-left: -11em;
+    padding: 10px 0;
+}
+
+}
+
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header {
+    min-height: 60vh; /* Adjust the minimum height for medium screens */
+    padding: 15px; /* Adjust the padding for medium screens */
+  }
+    .last-info-bundle img {
+    width: 100px;
+    margin-left: -13em;
+    padding: 10px 0;
+}
+    .event-box .event-box-img .event-box-title {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18.27px;
+    text-align: left;
+    color: var(--text-color-onoe);
+    padding: 11px 0;
+}
+   .event-container {
+        display: grid !important;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .dropdown-cover {
+    margin-left: -1rem;
+    display: flex;
+    align-items: center;
+    max-width: 21rem;
+    width: 100%;
+    background-color: var(--white-color);
+    height: 38px;
+    gap: 0px;
+    border-radius: 9px;
+    opacity: 1;
+    margin-top: -2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.dropdown {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem;
+}
+
+.contact-btn a {
+    padding: 10px 23px 10px 23px;
+    border-radius: 15px ;
+    opacity: 0px;
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.navbar-nav {
+    margin-top: 1rem;
+    margin: 0 auto;
+    gap: 6px;
+}
+
+.hero-text p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: var(--white-color);
+    padding: 40px 0;
+}
+.hero-text h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 43px;
+    text-align: left;
+    color: var(--white-color);
+}
+.hero-img img {
+    margin-top: -5rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    min-height: 19rem;
+    width: 100%!important;
+}
+
+
+}
+
+/* Styles for large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ .navbar-nav ul {
+    display: flex;
+    gap: 32px;
+}
+}
+
+/* Styles for extra large devices (large desktops) */
+@media (min-width: 1200px) {
+ 
+}
